@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_A">你好 Android</string>
+    <string name="hello_world_cn">你好世界</string>
+    <string name="hello_world_en">Hello World</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditTextActivity">
+
+    <Button
+        android:id="@+id/button_change_language"
+        android:layout_width="117dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/change_language_en"
+        app:layout_constraintStart_toEndOf="@+id/text_view_language"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_country" />
+
+    <TextView
+        android:id="@+id/text_view_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="108dp"
+        android:text="@string/language_en"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text_country"
+        android:layout_width="98dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:inputType="none"
+        android:text="@string/initial_edit"
+        app:layout_constraintStart_toEndOf="@+id/text_view_language"
+        app:layout_constraintTop_toTopOf="@+id/text_view_language" />
+</androidx.constraintlayout.widget.ConstraintLayout>
